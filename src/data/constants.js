@@ -5,6 +5,8 @@ import ByjusLogo from "../images/byjusLogo.png";
 import ByjusexamprepLogo from "../images/byjusexamprepLogo.jpeg"
 import VideoPlayerImg from "../images/videoPlayer.png"
 import JsProject from "../images/jsProject.png"
+import ProjectBandage from "../images/project3.png"
+
 
 export const Bio = {
   name: "Ritika Juneja",
@@ -16,7 +18,7 @@ export const Bio = {
   github: "https://github.com/Ritika1828",
   resume: "https://drive.google.com/file/d/1tQduCcUzlp10g4Qoe_ZOeDWNkiHF8-Y6/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/ritika-juneja-390231204/",
-  leetcode: "https://leetcode.com/ritika/",
+  leetcode: "https://www.naukri.com/code360/profile/5c25e7e1-5ebd-4d4a-a5b6-657e88a2bbce",
   twitter: "#",
   insta: "https://www.instagram.com/_ritika2807_/",
   facebook: "#",
@@ -185,8 +187,8 @@ export const projects = [
     date: "March 2024 - Present",
     description:
       "An Video player that have basic feature of fullscreen, Play/Pause toggle, seek, functionality, timer display, autoplay, speed selector, and volume control for an enhanced viewing experience",
-    image:VideoPlayerImg,
-        tags: [
+    image: VideoPlayerImg,
+    tags: [
       "Javascript(ES6)",
       "React.js",
       "Tailwinds CSS",
@@ -196,17 +198,35 @@ export const projects = [
     github: "https://github.com/Ritika1828/video-player",
     webapp: "https://video-player-9e9fb.web.app/",
   },
+
   {
-    id: 2,
-    title: "Vanilla JS Machine Coding Projects",
-    date: "March 2024 - Present",
+    id: 11,
+    title: "Shopping Website",
+    date: "Jan 2023 - May 2023",
     description:
-      "Porject for vanilla JS machine coding interview question",
+      "Developed an Ecommerce website using React.js and PostgreSQl with basic features like view all products, add and remove items from cart, checkout and process order.Integrated REST APIs for seamless add/ remove cart items, checkout, an order processing.",
+    image: ProjectBandage,
+  tags: [
+    "Javascript(ES6)",
+    "React.js",
+    "CSS",
+    "Node.js"
+  ],
+  category: "web app",
+  github: "https://github.com/Ritika1828/Bandage",
+  webapp: "https://bandageshopping.pages.dev/",
+  },
+{
+  id: 2,
+    title: "Vanilla JS Machine Coding Projects",
+      date: "March 2024 - Present",
+        description:
+  "Porject for vanilla JS machine coding interview question",
     image: JsProject,
-    tags: ["Javascript", "HTML", "CSS"],
-    category: "web app",
-    github: "https://github.com/Ritika1828/js-dom",
-    webapp: "https://js-dom-project.web.app/index.html",
+      tags: ["Javascript", "HTML", "CSS"],
+        category: "web app",
+          github: "https://github.com/Ritika1828/js-dom",
+            webapp: "https://js-dom-project.web.app/index.html",
   },
 
 ];
