@@ -12,11 +12,12 @@ export const Bio = {
   name: "Ritika Juneja",
   roles: [
     "Frontend Engineer",
+    // "Software Engineer"
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Ritika1828",
-  resume: "https://drive.google.com/file/d/1tQduCcUzlp10g4Qoe_ZOeDWNkiHF8-Y6/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1ppNIzR1cJIJeXCK67396plHsR4vSrvkG/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/ritika-juneja-390231204/",
   leetcode: "https://www.naukri.com/code360/profile/5c25e7e1-5ebd-4d4a-a5b6-657e88a2bbce",
   twitter: "#",

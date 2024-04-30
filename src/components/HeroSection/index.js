@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
 import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton } from './HeroStyle'
 import OwnerImage from '../../images/ritikaImg.jpeg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
+import MyTypeWriter from '../TypeWriter';
 
 function HeroSection() {
   return (
@@ -25,6 +26,7 @@ function HeroSection() {
                     loop: true,
                   }}
                 />
+                {/* <MyTypeWriter words={Bio.roles}/> */}
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
