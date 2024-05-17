@@ -19,14 +19,14 @@ function HeroSection() {
             <TextLoop>
               I am a
               <Span>
-                <Typewriter
+                {/* <Typewriter
                   options={{
                     strings: Bio.roles,
                     autoStart: true,
                     loop: true,
                   }}
-                />
-                {/* <MyTypeWriter words={Bio.roles}/> */}
+                /> */}
+                <MyTypeWriter words={Bio.roles}/>
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>

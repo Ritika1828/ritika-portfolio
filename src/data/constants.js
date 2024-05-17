@@ -1,12 +1,12 @@
-
 import SchoolImg from "../images/schoolImg.gif";
 import CollegeImg from "../images/collegeImg.png";
 import ByjusLogo from "../images/byjusLogo.png";
-import ByjusexamprepLogo from "../images/byjusexamprepLogo.jpeg"
-import VideoPlayerImg from "../images/videoPlayer.png"
-import JsProject from "../images/jsProject.png"
-import ProjectBandage from "../images/project3.png"
-
+import ByjusexamprepLogo from "../images/byjusexamprepLogo.jpeg";
+import VideoPlayerImg from "../images/videoPlayer.png";
+import JsProject from "../images/jsProject.png";
+import ReactProject from "../images/reactProject.png";
+import ProjectBandage from "../images/project3.png";
+import weatherProject from "../images/weatherProject.png";
 
 export const Bio = {
   name: "Ritika Juneja",
@@ -17,9 +17,11 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Ritika1828",
-  resume: "https://drive.google.com/file/d/1ppNIzR1cJIJeXCK67396plHsR4vSrvkG/view?usp=drive_link",
+  resume:
+    "https://drive.google.com/file/d/1ppNIzR1cJIJeXCK67396plHsR4vSrvkG/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/ritika-juneja-390231204/",
-  leetcode: "https://www.naukri.com/code360/profile/5c25e7e1-5ebd-4d4a-a5b6-657e88a2bbce",
+  leetcode:
+    "https://www.naukri.com/code360/profile/5c25e7e1-5ebd-4d4a-a5b6-657e88a2bbce",
   twitter: "#",
   insta: "https://www.instagram.com/_ritika2807_/",
   facebook: "#",
@@ -136,7 +138,7 @@ export const experiences = [
     desc: "Worked as a  Software Engineer in a web project",
     works: [
       "Enhanced page speed and performance through Server-Side Rendering (SSR) with Next.js which leads to increase in 10% traffic.",
-      "Improved and modernized the user homepage for logged-in users, making sure it looks great on any device and feels uniquely personalized to each user."
+      "Improved and modernized the user homepage for logged-in users, making sure it looks great on any device and feels uniquely personalized to each user.",
     ],
     skills: [
       "React.js",
@@ -145,7 +147,7 @@ export const experiences = [
       "JavaScript(ES6)",
       "Next.js",
       "GraphQL",
-      "Tailwind css"
+      "Tailwind css",
     ],
     // doc: "",
   },
@@ -183,52 +185,63 @@ export const education = [
 
 export const projects = [
   {
-    id: 11,
+    id: 1,
     title: "Native Video Player",
     date: "March 2024 - Present",
     description:
       "An Video player that have basic feature of fullscreen, Play/Pause toggle, seek, functionality, timer display, autoplay, speed selector, and volume control for an enhanced viewing experience",
     image: VideoPlayerImg,
-    tags: [
-      "Javascript(ES6)",
-      "React.js",
-      "Tailwinds CSS",
-      "Firebase"
-    ],
+    tags: ["Javascript(ES6)", "React.js", "Tailwinds CSS", "Firebase"],
     category: "web app",
     github: "https://github.com/Ritika1828/video-player",
     webapp: "https://video-player-9e9fb.web.app/",
   },
 
   {
-    id: 11,
+    id: 2,
     title: "Shopping Website",
     date: "Jan 2023 - May 2023",
     description:
       "Developed an Ecommerce website using React.js and PostgreSQl with basic features like view all products, add and remove items from cart, checkout and process order.Integrated REST APIs for seamless add/ remove cart items, checkout, an order processing.",
     image: ProjectBandage,
-  tags: [
-    "Javascript(ES6)",
-    "React.js",
-    "CSS",
-    "Node.js"
-  ],
-  category: "web app",
-  github: "https://github.com/Ritika1828/Bandage",
-  webapp: "https://bandageshopping.pages.dev/",
+    tags: ["Javascript(ES6)", "React.js", "CSS", "Node.js"],
+    category: "web app",
+    github: "https://github.com/Ritika1828/Bandage",
+    webapp: "https://bandageshopping.pages.dev/",
   },
-{
-  id: 2,
+  {
+    id: 3,
     title: "Vanilla JS Machine Coding Projects",
-      date: "March 2024 - Present",
-        description:
-  "Porject for vanilla JS machine coding interview question",
+    date: "March 2024 - Present",
+    description: "Project for vanilla JS machine coding interview question",
     image: JsProject,
-      tags: ["Javascript", "HTML", "CSS"],
-        category: "web app",
-          github: "https://github.com/Ritika1828/js-dom",
-            webapp: "https://js-dom-project.web.app/index.html",
+    tags: ["Javascript", "HTML", "CSS"],
+    category: "web app",
+    github: "https://github.com/Ritika1828/js-dom",
+    webapp: "https://js-dom-project.web.app/index.html",
   },
 
+  {
+    id: 4,
+    title: "React JS Machine Coding Projects",
+    date: "March 2024 - Present",
+    description: "Project for React JS machine coding interview question",
+    image: ReactProject,
+    tags: ["Javascript", "React Js", "HTML", "CSS"],
+    category: "web app",
+    github: "https://github.com/Ritika1828/react-machine-coding",
+    webapp: "https://react-project-comp.web.app/",
+  },
+  {
+    id: 5,
+    title: "Weather app",
+    date: "May 2024 -May 2024 ",
+    description:
+      "Project for getting the weather details according to the city",
+    image: weatherProject,
+    tags: ["Javascript", "React Js", "HTML", "CSS"],
+    category: "web app",
+    github: "https://github.com/Ritika1828/weather-city-app",
+    webapp: "https://weather-city-webapp.web.app/",
+  },
 ];
-
